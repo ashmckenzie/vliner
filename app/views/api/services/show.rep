@@ -1,0 +1,3 @@
+r.element :service, @service do |service|
+  render :partial => 'api/shared/service', :locals => { :service => service }
+end

@@ -1,0 +1,3 @@
+r.list_of :services, @services do |service|
+  render :partial => 'service', :locals => { :service => service }
+end

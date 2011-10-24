@@ -1,0 +1,4 @@
+r.element ':self', api_station_next_url(station, :json)
+r.element :id
+r.element :name
+r.element :friendly_name, :cached_slug

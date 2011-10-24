@@ -1,0 +1,3 @@
+r.list_of :stations, @stations do |station|
+  render :partial => 'station', :locals => { :station => station }
+end

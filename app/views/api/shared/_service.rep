@@ -1,0 +1,8 @@
+r.element ':self', api_service_url(service, :json)
+r.element :id
+r.element :departs_in
+r.element :departs_at
+r.element :departs_at_label
+r.element :arrives_at
+r.element :arrives_at_label
+r.element :platform
