@@ -34,6 +34,9 @@ gem 'mechanize'
 gem 'representative_view'
 gem 'draper'
 gem 'friendly_id'
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+gem 'cancan'
+gem 'devise'
 
 group :development do
   gem 'pry'

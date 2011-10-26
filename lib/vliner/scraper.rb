@@ -53,8 +53,8 @@ class Vliner::Scraper
             :station_id => station.id,
             :departs_at => departs_at,
             :departs_at_label => departs_at_label,
-            :arrives_at => arrives_at,
-            :arrives_at_label => arrives_at_label
+            :terminates_at => arrives_at,
+            :terminates_at_label => arrives_at_label
           )
         end
       end

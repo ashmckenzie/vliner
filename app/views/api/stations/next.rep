@@ -1,3 +1,7 @@
-r.list_of :services, @services do |service|
-  render :partial => 'api/shared/service', :locals => { :service => service }
+if @services
+  r.list_of :services, @services do |service|
+    render :partial => 'api/shared/service', :locals => { :service => service }
+  end
+else
+  r.list_of
 end
